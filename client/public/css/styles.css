@@ -1,0 +1,66 @@
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+nav {
+  box-shadow: 0px -2px 2px rgba(34, 34, 34, 0.6);
+}
+/* nav:hover {
+  background-color: rgb(151, 28, 28) !important;
+} */
+.container {
+  min-height: 100vh;
+}
+.container-fluid {
+  min-height: 100vh;
+}
+div.footer-div footer {
+  position: relative;
+  padding: 10;
+  width: 100%;
+  margin-bottom: -50px;
+  height: 100%; /* Height of the footer */
+  background: rgb(44, 119, 156);
+}
+img {
+  width: 500px;
+  height: 75%;
+}
+a.nav-link {
+  display: block;
+  color: #ffffff !important;
+  height: 50px;
+  font-family: Helvetica;
+  margin: 0 20px 0 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+a.nav-link:hover {
+  background-color: #b90202bd !important;
+  color: #ffffff98 !important;
+  font-weight: bold;
+  /* border-style: solid; */
+  border-width: 2px;
+  /* border-color: rgb(255, 255, 255); */
+}
+.active {
+  background-color: #1a02528a !important;
+  color: #ffffff98 !important;
+  font-size: larger;
+  font-weight: bold;
+  border-width: 2px;
+}
+.nav-link.logout {
+  position: absolute;
+  right: 10px;
+  font-size: larger;
+  font-weight: bold;
+  background-color: #ac0707f3;
+}
+.nav-link.home {
+  position: absolute;
+  left: 10px;
+  font: 10em sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
